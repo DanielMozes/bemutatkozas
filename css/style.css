@@ -1,0 +1,38 @@
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+
+.topnav a:hover {
+    border-bottom: 3px solid #007BFF;
+  }
+
+.topnav a.active {
+    border-bottom: 3px solid #007BFF;
+  }
+
+.btn, .btn:hover {
+  background-color: #007BFF;
+  border: none;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #fff;
+    color: #007BFF;
+  }
+
+a {
+  color: #000;
+  }
+
+a:hover {
+    text-decoration: none;
+    color: #007BFF;
+  }
+
+#footer a:hover {
+    color: #000;
+  }
